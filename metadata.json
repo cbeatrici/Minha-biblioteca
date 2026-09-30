@@ -1,0 +1,10 @@
+{
+  "name": "Lumina Study & Reading Studio",
+  "description": "Smart reading and study companion with camera OCR highlight scanning, AI book and author context auto-enrichment, chapter-by-chapter AI summaries and deep dives, and structured Notion template synchronization.",
+  "requestFramePermissions": [
+    "camera"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

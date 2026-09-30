@@ -1,0 +1,43 @@
+{
+  "entities": {
+    "UserProfile": {
+      "title": "UserProfile",
+      "description": "User account profile details",
+      "type": "object",
+      "properties": {
+        "uid": { "type": "string" },
+        "email": { "type": "string" },
+        "displayName": { "type": "string" },
+        "createdAt": { "type": "string" },
+        "readingStreak": { "type": "object" }
+      },
+      "required": ["uid", "email"]
+    },
+    "Notebook": {
+      "title": "Notebook",
+      "description": "User book or research notebook containing highlights, pages, and flashcards",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "userId": { "type": "string" },
+        "title": { "type": "string" },
+        "author": { "type": "string" },
+        "type": { "type": "string" },
+        "status": { "type": "string" },
+        "createdAt": { "type": "string" },
+        "updatedAt": { "type": "string" }
+      },
+      "required": ["id", "userId", "title"]
+    }
+  },
+  "firestore": {
+    "/users/{userId}": {
+      "schema": "UserProfile",
+      "description": "User private profile document"
+    },
+    "/users/{userId}/notebooks/{notebookId}": {
+      "schema": "Notebook",
+      "description": "Collection of notebooks belonging strictly to the authenticated user"
+    }
+  }
+}

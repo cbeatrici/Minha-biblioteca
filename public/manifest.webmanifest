@@ -1,0 +1,39 @@
+{
+  "id": "/",
+  "name": "ExLibris - Caderno de Leitura e Citações",
+  "short_name": "ExLibris",
+  "description": "Seu estúdio pessoal de leitura: capture grifos, resenhas, flashcards e sincronize sua biblioteca entre celular e computador.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "theme_color": "#C86D51",
+  "background_color": "#FAF9F6",
+  "icons": [
+    {
+      "src": "/pwa-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/pwa-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/pwa-maskable-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ],
+  "categories": ["books", "education", "productivity", "utilities"]
+}

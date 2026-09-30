@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <!-- Book Outer Shape -->
+  <path d="M32 18C26 12 14 12 8 14V50C14 48 26 48 32 54C38 48 50 48 56 50V14C50 12 38 12 32 18Z" fill="#C86D51"/>
+  <!-- Left Pages Stack -->
+  <path d="M10 16C16 14 26 14 31 19.5V52.5C26 47.5 16 47.5 10 49.5V16Z" fill="#FDFBF7"/>
+  <!-- Right Pages Stack -->
+  <path d="M54 16C48 14 38 14 33 19.5V52.5C38 47.5 48 47.5 54 49.5V16Z" fill="#F4F1EA"/>
+  <!-- Subtle Page Lines Left -->
+  <line x1="14" y1="24" x2="27" y2="24" stroke="#DCD6CA" stroke-width="2" stroke-linecap="round"/>
+  <line x1="14" y1="31" x2="27" y2="31" stroke="#DCD6CA" stroke-width="2" stroke-linecap="round"/>
+  <line x1="14" y1="38" x2="23" y2="38" stroke="#DCD6CA" stroke-width="2" stroke-linecap="round"/>
+  <!-- Subtle Page Lines Right -->
+  <line x1="37" y1="24" x2="50" y2="24" stroke="#DCD6CA" stroke-width="2" stroke-linecap="round"/>
+  <line x1="37" y1="31" x2="50" y2="31" stroke="#DCD6CA" stroke-width="2" stroke-linecap="round"/>
+  <line x1="37" y1="38" x2="45" y2="38" stroke="#DCD6CA" stroke-width="2" stroke-linecap="round"/>
+  <!-- Center Book Spine & Golden Bookmark Ribbon -->
+  <path d="M32 18V44L35 41L38 44V18" fill="#D4A373"/>
+  <line x1="32" y1="18" x2="32" y2="54" stroke="#A8543B" stroke-width="1.5" stroke-linecap="round"/>
+</svg>
